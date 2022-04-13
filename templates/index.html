@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+<style>
+body {
+            width:600px;
+            height:590px;
+            padding-top:20px;
+            padding-left:15px;
+            padding-right:15px;
+}
+</style>
+</head>
+<body>
+
+<h2>Resume NER:</h2>
+<form method="POST" enctype="multipart/form-data">
+    {{form.hidden_tag()}}
+    {{form.file()}}
+    {{form.submit()}}
+    <!--img src="https://user-images.githubusercontent.com/12748752/163184846-705bf8f8-3549-464c-beca-380e0fe762d4.jpg" width="50%"/ -->
+
+</body>
+</html>
